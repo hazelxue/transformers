@@ -41,7 +41,7 @@ if is_torch_available():
 
 
 def _check_distributed_checkpointing_available() -> bool:
-    return is_torch_distributed_available() and is_torch_greater_or_equal("2.7")
+    return is_torch_distributed_available() and is_torch_greater_or_equal("2.8")
 
 
 def _is_torch_distributed_initialized() -> bool:
